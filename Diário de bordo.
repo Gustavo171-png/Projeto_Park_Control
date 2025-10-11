@@ -18,3 +18,5 @@ pattern → usa expressões regulares (para telefone e placa)
 minlength → define número mínimo de caracteres
 Usamos address no contato para deixar ainda mais semântico.
 Adicionamos forma de pagamento.
+Adicionamos uma imagem:
+<h1><img src="img/img.png.png" alt="Logo ParkControl" width="250"></h1>
