@@ -1,11 +1,20 @@
 Entregáveis da Primeira Fase:
 Repositório estruturado com README.md.✓
 Index.html funcional com semântica aplicada.✓
-Página de formulário com validação HTML5.
+Página de formulário com validação HTML5.✓
 Páginas com recursos multimídia (vídeo, áudio, iframe).
 Protótipo gráfico simples usando Canvas/SVG.
-Documentação da equipe (Diário de bordo) (decisões, aprendizados, dificuldades).
+Documentação da equipe (Diário de bordo) (decisões, aprendizados, dificuldades).✓
 Apresentação final da fase.
 
-Alterçoes feita pelo Mateus:
-Alteirei o README.md com um breve introdução sobre o tema do nosso desenvolvimento WEB.
+Alterções feita pelo Maicon/Mateus/Tiago:
+README.md com um breve introdução sobre o tema do nosso desenvolvimento WEB.
+Usamos a TEG <details> para esconder os textos para não deixar poluido.
+Juntos configuramos a validação HTML5.
+A seção “Cadastro de Usuário” foi adicionada com validação HTML5 nativa:
+required → campo obrigatório
+type="email" → exige formato de e-mail
+pattern → usa expressões regulares (para telefone e placa)
+minlength → define número mínimo de caracteres
+Usamos address no contato para deixar ainda mais semântico.
+Adicionamos forma de pagamento.
