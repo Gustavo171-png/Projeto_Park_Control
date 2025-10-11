@@ -17,13 +17,14 @@
         <a href="#servicos">Serviços</a>
         <a href="#contato">Contato</a>
     </nav>
-
+<br>
     <main>
+        <details>
         <section id="sobre">
             <h2>Sobre o Projeto</h2>
             <p>O ParkControl é um sistema de gestão de estacionamentos que utiliza sensores IoT, inteligência artificial e automação para otimizar o uso de vagas, reduzir tempo de busca e melhorar a experiência dos usuários.</p>
         </section>
-
+        
         <section id="servicos">
             <h2>Serviços</h2>
             <div class="card">
@@ -31,20 +32,57 @@
                 <p>Acompanhe a ocupação das vagas de forma instantânea.</p>
             </div>
             <div class="card">
-                <h3>Pagamentos digitais</h3>
-                <p>Realize pagamentos via PIX, cartão e carteiras digitais.</p>
-            </div>
-            <div class="card">
                 <h3>Relatórios inteligentes</h3>
                 <p>Dashboards e análises para administradores.</p>
+                <h3><section id="cadastro">
+                    </details>
+            <h2>Cadastro de Usuário</h2>
+            <p>Preencha o formulário abaixo para se cadastrar e utilizar o ParkControl.</p>
+
+            <form action="#" method="post">
+                <label for="nome">Nome completo:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Ex: João Silva" required minlength="30"><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required><br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" pattern="\(\d{2}\)\s?\d{4,5}-\d{4}" required><br><br>
+
+                <label for="placa">Placa do veículo:</label><br>
+                <input type="text" id="placa" name="placa" placeholder="ABC-1234" pattern="[A-Z]{3}-\d{4}" required><br><br>
+
+                <label for="vaga">Tipo de vaga:</label><br>
+                <select id="vaga" name="vaga" required>
+                    <option value="">Selecione...</option>
+                    <option value="comum">Comum</option>
+                    <option value="preferencial">Preferencial</option>
+                    <option value="deficiente">Deficiente</option>
+                    <option value="eletrico">Veículo elétrico</option>
+                </select><br><br>
+                <label for="Pagamentos">Pagamentos:</label><br>
+                <select id="pagamentos" name="pagamentos" required>
+                <option value="pix">PIX</option>
+                <option value="cartao_credito/debito">Cartão de Crédito</option>
+                <option value="carteira_digital">Carteira digital</option>
+                </select><br><br>
+                <label for="senha">Crie uma senha:</label><br>
+                <input type="password" id="senha" name="senha" minlength="6" required><br><br>
+
+                <input type="submit" value="Cadastrar">
+            </form>
+        </section></h3>
             </div>
         </section>
+
+
 
         <section id="contato">
             <h2>Contato</h2>
             <p>Email: contato@parkcontrol.com</p>
             <p>Telefone: (11) 99999-9999</p>
         </section>
+        
     </main>
 
     <footer>
