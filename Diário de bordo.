@@ -8,7 +8,7 @@ Documentação da equipe (Diário de bordo) (decisões, aprendizados, dificuldad
 Apresentação final da fase.
 
 Alterções feita pelo Maicon/Mateus/Tiago:
-README.md com um breve introdução sobre o tema do nosso desenvolvimento WEB.
+README.md com uma breve introdução sobre o tema do nosso desenvolvimento WEB.
 Usamos a TEG <details> para esconder os textos para não deixar poluido.
 Juntos configuramos a validação HTML5.
 A seção “Cadastro de Usuário” foi adicionada com validação HTML5 nativa:
@@ -21,8 +21,8 @@ Adicionamos forma de pagamento.
 Adicionamos uma imagem:
 <h1><img src="img/img.png.png" alt="Logo ParkControl" width="250"></h1>
 usamos o width para ajustar a imagem.
-ouseenter → dispara o som quando o mouse entra na área da imagem.
 Adicionei audio, consegui pelo site https://ttsmp3.com/.
+ouseenter → dispara o som quando o mouse entra na área da imagem.
 controls → mostra os botões de play, pause e volume.
 autoplay → faz o áudio tocar automaticamente (nem todos navegadores permitem).
 loop → faz o áudio repetir continuamente.
