@@ -20,7 +20,7 @@ Usamos address no contato para deixar ainda mais semântico.
 Adicionamos forma de pagamento.
 Adicionamos uma imagem:
 <h1><img src="img/img.png.png" alt="Logo ParkControl" width="250"></h1>
-usamos o width para ajutar a imagem.
+usamos o width para ajustar a imagem.
 ouseenter → dispara o som quando o mouse entra na área da imagem.
 Adicionei audio, consegui pelo site https://ttsmp3.com/.
 controls → mostra os botões de play, pause e volume.
